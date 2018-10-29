@@ -322,7 +322,7 @@ class MYFTP:
 
     def makedirs(self, dirname):
         u'''
-        递归创建目前目录
+        递归创建远程目录
         dirname: 待创建的远程多级目录
         '''
         dirs = get_dir(dirname)

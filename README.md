@@ -52,7 +52,7 @@
 		
 		return [[]]
 
-  # 递归创建目前目录
+  # 递归创建远程目录
     x.makedirs(dirname='./')
 		dirname: 待创建的远程多级目录
 		
